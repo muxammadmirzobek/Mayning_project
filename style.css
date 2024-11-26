@@ -570,4 +570,39 @@ body {
 .div_9__btn {
     width: 217px;
     height: 60px;
+    margin-right: 20px;
+}
+.div_9__flex2 {
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    /* border: 1px solid gold; */
+}
+.flex2__div {
+    width: 217px;
+    height: 96px;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 25%);
+    border-radius: 4px;
+    background-color: rgba(24, 24, 26, 1);
+    /* border: 1px solid gold; */
+}
+.flex2__div:hover {
+    border: var(--color-ochYashil) solid 2px;
+    transition: 0.2s;
+}
+.flex_2__h4 {
+    /* border: 1px solid gold; */
+    margin-left: 20px;
+    margin-top: 20px;
+    color: var(--color-ochYashil);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.62px;
+}
+.flex_2__h2 {
+    color: var(--color-text);
+    margin-top: 5px;
+    margin-left: 20px;
 }
