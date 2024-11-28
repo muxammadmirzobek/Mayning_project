@@ -665,38 +665,86 @@ body {
     border: var(--color-ochYashil) 2px solid;
 }
 .div_0__analiz {
-    width: 100%;
+    display: flex;
     border: var(--color-border) 2px solid;
+    border-radius: 50px 10px;
+    overflow: hidden;
 }
-.div_0__div_7 {
-    text-align: center;
+.bgc {
+    background-color: rgba(24, 24, 26, 1);
+}
+.div1 {
+    width: 100%;
+}
+.div1__1 {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 18.62px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.div1__header {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 18.62px;
     color: rgba(119, 119, 119, 1);
+}
+.div2 {
+    width: 100%;
+}
+
+.div1__2 {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 18.62px;
+    font-weight: 400;
+}
+.div2__flex1 {
+    display: flex;
+    gap: 5px;
+}
+.div2__h3 {
+    color: rgba(255, 255, 255, 1);
+    line-height: 18.62px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.div2__h4 {
+    color: rgba(119, 119, 119, 1);
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 18.62px;
+}
+.div3 {
+    width: 100%;
+}
+.div1__3 {
+    padding: 20px;
+    line-height: 18.62px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-ochYashil);
+}
+
+.div4 {
+    width: 100%;
+}
+.div1__4 {
+    padding: 20px;
+    line-height: 18.62px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.analiz__btn {
+    margin-top: 10px;
+    width: 100%;
     background-color: rgba(51, 51, 51, 1);
-}
-.div_0_1 {
-    display: flex;
-    align-items: center;
-    height: 60px;
+    outline: none;
+    height: 51px;
     color: rgba(119, 119, 119, 1);
+    border: 50px 10px;
 }
-.div_0__div_1 {
-    text-align: center;
-    width: 370.9px;
-    border: 1px solid gold;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.62px;
-}
-.div_0_2 {
-    display: flex;
-    text-align: center;
-}
-.div_0__div_2 {
-    display: flex;
-    text-align: center;
-    width: 370.9px;
-    border: 1px solid gold;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.62px;
+.analiz__btn:active {
+    scale: 0.998;
 }
